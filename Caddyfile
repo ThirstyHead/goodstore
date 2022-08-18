@@ -1,0 +1,6 @@
+:8000
+
+uri strip_prefix /goodstore
+
+file_server
+
