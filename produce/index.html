@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Good - Produce | GroceryWorks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Scott Davis <scott@thirstyhead.com>">
+    <meta name="description" content="An example of well-written, semantic, accessible website.">
+    <meta name="keywords" content="html5, css, javascript, accessibility, a11y">
+
+    <link rel="stylesheet" href="/goodstore/css/index.css">
+
+    <style>
+      body{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 2fr;
+        grid-template-areas:
+          "header header header"
+          "nav main main";
+      }
+
+      header{
+        grid-area: header;
+      }
+
+      .nav-sidebar{
+        grid-area: nav;
+      }
+
+      main{
+        grid-area: main;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="/goodstore">GroceryWorks</a> (Good)</h1>    
+    </header>
+
+    <section class="nav-sidebar">
+      <nav>
+        <ul>
+          <li><a href="/goodstore">Specials</a></li>
+          <li><a href="/goodstore/produce">Produce</a></li>
+          <li><a href="/goodstore/pasta">Pasta</a></li>
+          <li><hr></li>
+          <li><a href="/goodstore/checkout">Checkout</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <main>
+      <h2>Fruits</h2> 
+
+      <label class="item">
+        <input type="checkbox" value="Cranberries (1 lb)">
+        <img src="/goodstore/img/produce/cranberries.jpg"
+             alt="Cranberries (1 lb)">
+        <p>
+          $2.49<br>
+          Cranberries (1 lb)
+        </p>
+      </label>
+
+      <label class="item">
+        <input type="checkbox" value="Gala Apples (1 lb)">
+        <img src="/goodstore/img/produce/gala-apples.jpg"
+             alt="Gala Apples (1 lb)">
+        <p>
+          $1.49<br>
+          Gala Apples (1 lb)
+        </p>
+      </label>
+      
+      <label class="item">
+        <input type="checkbox" value="Granny Smith Apples (1 lb)">
+        <img src="/goodstore/img/produce/granny-smith-apples.jpg"
+             alt="Granny Smith Apples (1 lb)">
+        <p>
+          $1.69<br>
+          Granny Smith Apples (1 lb)
+        </p>
+      </label>
+      
+      <label class="item">
+        <input type="checkbox" value="Limes (each)">
+        <img src="/goodstore/img/produce/limes.jpg"
+             alt="Limes (each)">
+        <p>
+          $0.99<br>
+          Limes (each)
+        </p>
+      </label>
+ 
+      <label class="item">
+        <input type="checkbox" value="Oranges (1 lb)">
+        <img src="/goodstore/img/produce/oranges.jpg"
+             alt="Oranges (1 lb)">
+        <p>
+          $2.99<br>
+          Oranges (1 lb)
+        </p>
+      </label>
+ 
+      <label class="item">
+        <input type="checkbox" value="Red Cherries (1 lb)">
+        <img src="/goodstore/img/produce/red-cherries.jpg"
+             alt="Red Cherries (1 lb)">
+        <p>
+          $6.99<br>
+          Red Cherries (1 lb)
+        </p>
+      </label>
+ 
+      <label class="item">
+        <input type="checkbox" value="Tangerines (1 lb)">
+        <img src="/goodstore/img/produce/tangerines.jpg"
+             alt="Tangerines (1 lb)">
+        <p>
+          $4.49<br>
+          Tangerines (1 lb)
+        </p>
+      </label>
+      
+
+
+
+
+      <h2>Vegetables</h2> 
+
+     
+      <label class="item">
+        <input type="checkbox" value="Mushrooms (1 lb)">
+        <img src="/goodstore/img/produce/mushrooms.jpg"
+             alt="Mushrooms (1 lb)">
+        <p>
+          $2.99<br>
+          Mushrooms (1 lb)
+        </p>
+      </label>
+      
+      <label class="item">
+        <input type="checkbox" value="Onions (1 lb)">
+        <img src="/goodstore/img/produce/onions.jpg"
+             alt="Onions (lb)">
+        <p>
+          $0.99<br>
+          Onions (lb)
+        </p>
+      </label>
+ 
+      <label class="item">
+        <input type="checkbox" value="Potatoes (1 lb)">
+        <img src="/goodstore/img/produce/potatoes.jpg"
+             alt="Potatoes (1 lb)">
+        <p>
+          $1.49<br>
+          Potatoes (1 lb)
+        </p>
+      </label>
+ 
+      <label class="item">
+        <input type="checkbox" value="Spinach (1 lb)">
+        <img src="/goodstore/img/produce/spinach.jpg"
+             alt="Spinach (1 lb)">
+        <p>
+          $2.49<br>
+          Spinach (1 lb)
+        </p>
+      </label>
+ 
+      <label class="item">
+        <input type="checkbox" value="Tomatoes (1 lb)">
+        <img src="/goodstore/img/produce/vine-ripened-tomatoes.jpg"
+             alt="Tomatoes (1 lb)">
+        <p>
+          $1.89<br>
+          Tomatoes (1 lb)
+        </p>
+      </label>
+ 
+
+
+    </main>
+
+  </body>
+</html>
