@@ -30,6 +30,31 @@ nav ul li {
   margin-top: 1em;
 }
 
+.item {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.item:focus-within {
+  border: blue 2px solid;
+  border-radius: 6px;
+}
+
+.item img { 
+  pointer-events: none;
+}
+
+.item input[type='checkbox'] {
+  /* display: none; */
+  opacity: 0;
+}
+
+.item input[type='checkbox']:checked ~ p {
+  border: green 2px solid;
+}
+
 .nav-sidebar {
   background-color: olive;
   height: 100vh;
