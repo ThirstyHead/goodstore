@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Good - Pasta | GroceryWorks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Scott Davis <scott@thirstyhead.com>">
+    <meta name="description" content="An example of well-written, semantic, accessible website.">
+    <meta name="keywords" content="html5, css, javascript, accessibility, a11y">
+
+    <link rel="stylesheet" href="/goodstore/css/index.css">
+
+    <style>
+      body{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 2fr;
+        grid-template-areas:
+          "header header header"
+          "nav main main";
+      }
+
+      header{
+        grid-area: header;
+      }
+
+      .nav-sidebar{
+        grid-area: nav;
+      }
+
+      main{
+        grid-area: main;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="/goodstore">GroceryWorks</a> (Good)</h1>    
+    </header>
+
+    <section class="nav-sidebar">
+      <nav>
+        <ul>
+          <li><a href="/goodstore">Specials</a></li>
+          <li><a href="/goodstore/produce">Produce</a></li>
+          <li><a href="/goodstore/pasta">Pasta</a></li>
+          <li><hr></li>
+          <li><a href="/goodstore/checkout">Checkout</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <main>
+      <h2>Pasta</h2> 
+
+      <label class="item">
+        <input type="checkbox" value="Egg Noodles (1 lb)">
+        <img src="/goodstore/img/pasta/egg-noodles.jpg"
+             alt="Egg Noodles (1 lb)">
+        <p>
+          $0.79<br>
+          Egg Noodles (1 lb)
+        </p>
+      </label>
+
+      <label class="item">
+        <input type="checkbox" value="Macaroni (1 lb)">
+        <img src="/goodstore/img/pasta/macaroni.jpg"
+             alt="Macaroni (1 lb)">
+        <p>
+          $0.49<br>
+          Macaroni (1 lb)
+        </p>
+      </label>
+
+      <label class="item">
+        <input type="checkbox" value="Mini Shells (1 lb)">
+        <img src="/goodstore/img/pasta/mini-shells.jpg"
+             alt="Mini Shells (1 lb)">
+        <p>
+          $0.49<br>
+          Mini Shells (1 lb)
+        </p>
+      </label>
+      
+      <label class="item">
+        <input type="checkbox" value="Penne (1 lb)">
+        <img src="/goodstore/img/pasta/penne.jpg"
+             alt="Penne (1 lb)">
+        <p>
+          $0.89<br>
+          Penne (1 lb)
+        </p>
+      </label>
+
+      <label class="item">
+        <input type="checkbox" value="Rotini (1 lb)">
+        <img src="/goodstore/img/pasta/rotini.jpg"
+             alt="Rotini (1 lb)">
+        <p>
+          $1.59<br>
+          Rotini (1 lb)
+        </p>
+      </label>
+
+
+
+
+
+
+
+      <h2>Rice</h2> 
+
+      <label class="item">
+        <input type="checkbox" value="Jasmine Rice (1 lb)">
+        <img src="/goodstore/img/pasta/jasmine-rice.jpg"
+             alt="Jasmine Rice (1 lb)">
+        <p>
+          $2.79<br>
+          Jasmine Rice (1 lb)
+        </p>
+      </label>
+
+      <label class="item">
+        <input type="checkbox" value="Brown Rice (1 lb)">
+        <img src="/goodstore/img/pasta/short-grain-brown-rice.jpg"
+             alt="Brown Rice (1 lb)">
+        <p>
+          $3.49<br>
+          Brown Rice (1 lb)
+        </p>
+      </label>
+
+
+
+
+    </main>
+
+  </body>
+</html>
