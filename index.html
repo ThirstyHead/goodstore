@@ -9,9 +9,48 @@
     <meta name="keywords" content="html5, css, javascript, accessibility, a11y">
 
     <link rel="stylesheet" href="/goodstore/css/index.css">
+
+    <style>
+      body{
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "nav main main";
+      }
+
+      header{
+        grid-area: header;
+      }
+
+      .nav-sidebar{
+        grid-area: nav;
+        width: 20%;
+      }
+
+      main{
+        grid-area: main;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>GroceryWorks (Good)</h1>    
+    <header>
+      <h1>GroceryWorks (Good)</h1>    
+    </header>
+
+    <section class="nav-sidebar">
+      <nav>
+        <ul>
+          <li>Specials</li>
+          <li>Produce</li>
+          <li>Pasta</li>
+        </ul>
+      </nav>
+    </section>
+
+    <main>
+      Main
+    </main>
+
   </body>
 </html>
