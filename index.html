@@ -13,6 +13,7 @@
     <style>
       body{
         display: grid;
+        grid-template-columns: 0.5fr 2fr 2fr;
         grid-template-areas:
           "header header header"
           "nav main main";
@@ -24,7 +25,6 @@
 
       .nav-sidebar{
         grid-area: nav;
-        width: 20%;
       }
 
       main{
@@ -35,21 +35,27 @@
 
   <body>
     <header>
-      <h1>GroceryWorks (Good)</h1>    
+      <h1><a href="/goodstore">GroceryWorks</a> (Good)</h1>    
     </header>
 
     <section class="nav-sidebar">
       <nav>
         <ul>
-          <li>Specials</li>
-          <li>Produce</li>
-          <li>Pasta</li>
+          <li><a href="/goodstore">Specials</a></li>
+          <li><a href="/goodstore/produce">Produce</a></li>
+          <li><a href="/goodstore/pasta">Pasta</a></li>
+          <li><hr></li>
+          <li><a href="/goodstore/checkout">Checkout</a></li>
         </ul>
       </nav>
     </section>
 
     <main>
-      Main
+      <h2>Today's Specials</h2> 
+
+      <span class="item">
+        <img src="/goodstore/img/eggs/white-eggs.jpg">
+      </span>
     </main>
 
   </body>
